@@ -1,4 +1,4 @@
 # Memo for myself
 
-site: [https://g10guang.github.io/memo](https://g10guang.github.io/memo)
+site: [memo.g10guang.com](http://memo.g10guang.com)
 
