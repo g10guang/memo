@@ -4,6 +4,8 @@ site_url: http://memo.g10guang.com/site
 
 site_author: g10guang
 
+remote_branch: gh-pages
+
 repo_url: https://github.com/g10guang/memo
 
 theme:
