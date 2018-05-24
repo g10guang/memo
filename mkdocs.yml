@@ -1,0 +1,7 @@
+site_name: Memo
+
+theme:
+  name: 'material'
+
+markdown_extensions:
+  - codehilite
