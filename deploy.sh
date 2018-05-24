@@ -4,6 +4,8 @@ deactivate
 
 mkdocs build
 
+git checkout gh-pages
+
 git add *
 
 git commit -m "update master"
