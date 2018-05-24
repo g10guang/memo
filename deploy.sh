@@ -1,13 +1,13 @@
 # virtual env
 
+git checkout gh-pages
+
 deactivate
 
 mkdocs build
 
-git checkout gh-pages
-
 git add *
 
-git commit -m "update master"
+git commit -m "update gh-pages"
 
-git push origin master
+git push origin gh-pages
