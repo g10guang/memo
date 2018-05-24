@@ -1,7 +1,12 @@
-site_name: Memo
+site_name: Memo-刘曦光的备忘录
+
+site_url: http://memo.g10guang.com/site
+
+site_author: g10guang
 
 theme:
   name: 'material'
 
 markdown_extensions:
   - codehilite
+  
