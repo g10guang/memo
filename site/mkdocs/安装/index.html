@@ -490,15 +490,17 @@ pip install mkdocs-material
 <h2 id="_5">部署脚本</h2>
 <div class="codehilite"><pre><span></span><span class="c1"># virtual env</span>
 
+git checkout gh-pages
+
 deactivate
 
 mkdocs build
 
 git add *
 
-git commit -m <span class="s2">&quot;update master&quot;</span>
+git commit -m <span class="s2">&quot;update gh-pages&quot;</span>
 
-git push origin master
+git push origin gh-pages
 </pre></div>
                 
                   

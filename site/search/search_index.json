@@ -12,7 +12,7 @@
         },
         {
             "location": "/mkdocs/\u5b89\u88c5/",
-            "text": "mkdocs \u5b89\u88c5\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\n\n\u5b89\u88c5\u76f8\u5e94\u5305\n\n\npip install mkdocs\npip install mkdocs-material\n\n\n\n\n\n\u4fee\u6539\u914d\u7f6e\u6587\u4ef6\n\n\n\u4f7f\u7528\u4e3b\u9898 metrial\uff0c\u548c\u8bed\u6cd5\u9ad8\u4eae\u63d2\u4ef6 codehilite\u3002\n\n\nsite_name\n:\n \nMemo\n\n\n\ntheme\n:\n\n  \nname\n:\n \n'material'\n\n\n\nmarkdown_extensions\n:\n\n  \n-\n \ncodehilite\n\n\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\n\u9884\u89c8\n\n\nmkdocs serve\n\n\n\n\n\n\u751f\u6210\u7ad9\u70b9\n\n\nmkdocs build\n\n\n\n\n\n\u90e8\u7f72\u811a\u672c\n\n\n# virtual env\n\n\ndeactivate\n\nmkdocs build\n\ngit add *\n\ngit commit -m \n\"update master\"\n\n\ngit push origin master",
+            "text": "mkdocs \u5b89\u88c5\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\n\n\u5b89\u88c5\u76f8\u5e94\u5305\n\n\npip install mkdocs\npip install mkdocs-material\n\n\n\n\n\n\u4fee\u6539\u914d\u7f6e\u6587\u4ef6\n\n\n\u4f7f\u7528\u4e3b\u9898 metrial\uff0c\u548c\u8bed\u6cd5\u9ad8\u4eae\u63d2\u4ef6 codehilite\u3002\n\n\nsite_name\n:\n \nMemo\n\n\n\ntheme\n:\n\n  \nname\n:\n \n'material'\n\n\n\nmarkdown_extensions\n:\n\n  \n-\n \ncodehilite\n\n\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\n\u9884\u89c8\n\n\nmkdocs serve\n\n\n\n\n\n\u751f\u6210\u7ad9\u70b9\n\n\nmkdocs build\n\n\n\n\n\n\u90e8\u7f72\u811a\u672c\n\n\n# virtual env\n\n\ngit checkout gh-pages\n\ndeactivate\n\nmkdocs build\n\ngit add *\n\ngit commit -m \n\"update gh-pages\"\n\n\ngit push origin gh-pages",
             "title": "mkdocs \u5b89\u88c5"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "location": "/mkdocs/\u5b89\u88c5/#_5",
-            "text": "# virtual env \n\ndeactivate\n\nmkdocs build\n\ngit add *\n\ngit commit -m  \"update master\" \n\ngit push origin master",
+            "text": "# virtual env \n\ngit checkout gh-pages\n\ndeactivate\n\nmkdocs build\n\ngit add *\n\ngit commit -m  \"update gh-pages\" \n\ngit push origin gh-pages",
             "title": "\u90e8\u7f72\u811a\u672c"
         },
         {
