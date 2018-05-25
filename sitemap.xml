@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>http://memo.g10guang.com/</loc>
+     <loc>/</loc>
      <lastmod>2018-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -12,7 +12,7 @@
     
         
     <url>
-     <loc>http://memo.g10guang.com/mkdocs/安装/</loc>
+     <loc>/mkdocs/安装/</loc>
      <lastmod>2018-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -22,7 +22,7 @@
     
         
     <url>
-     <loc>http://memo.g10guang.com/python/Python虚拟环境创建/</loc>
+     <loc>/python/Python虚拟环境创建/</loc>
      <lastmod>2018-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
