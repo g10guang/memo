@@ -1,0 +1,16 @@
+site_name: Memo-刘曦光的备忘录
+
+site_author: g10guang
+
+remote_branch: gh-pages
+
+docs_dir: docs
+
+repo_url: https://github.com/g10guang/memo
+
+theme:
+  name: 'material'
+
+markdown_extensions:
+  - codehilite
+  
