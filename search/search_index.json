@@ -12,7 +12,7 @@
         },
         {
             "location": "/mkdocs/\u5b89\u88c5/",
-            "text": "mkdocs \u5b89\u88c5\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\n\n\u5b89\u88c5\u76f8\u5e94\u5305\n\n\npip install mkdocs\npip install mkdocs-material\n\n\n\n\n\n\u4fee\u6539\u914d\u7f6e\u6587\u4ef6\n\n\n\u4f7f\u7528\u4e3b\u9898 metrial\uff0c\u548c\u8bed\u6cd5\u9ad8\u4eae\u63d2\u4ef6 codehilite\u3002\n\n\nsite_name\n:\n \nMemo\n\n\n\ntheme\n:\n\n  \nname\n:\n \n'material'\n\n\n\nmarkdown_extensions\n:\n\n  \n-\n \ncodehilite\n\n\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\n\u9884\u89c8\n\n\nmkdocs serve\n\n\n\n\n\n\u751f\u6210\u7ad9\u70b9\n\n\nmkdocs build\n\n\n\n\n\n\u90e8\u7f72\u811a\u672c\n\n\n# virtual env\n\n\ngit checkout gh-pages\n\ndeactivate\n\nmkdocs build\n\ngit add *\n\ngit commit -m \n\"update gh-pages\"\n\n\ngit push origin gh-pages",
+            "text": "mkdocs \u5b89\u88c5\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\n\n\u5b89\u88c5\u76f8\u5e94\u5305\n\n\npip install mkdocs\npip install mkdocs-material\n\n\n\n\n\n\u4fee\u6539\u914d\u7f6e\u6587\u4ef6\n\n\n\u4f7f\u7528\u4e3b\u9898 metrial\uff0c\u548c\u8bed\u6cd5\u9ad8\u4eae\u63d2\u4ef6 codehilite\u3002\n\n\nsite_name\n:\n \nMemo\n\n\n\ntheme\n:\n\n  \nname\n:\n \n'material'\n\n\n\nmarkdown_extensions\n:\n\n  \n-\n \ncodehilite\n\n\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\n\u9884\u89c8\n\n\nmkdocs serve\n\n\n\n\n\n\u751f\u6210\u7ad9\u70b9\n\n\nmkdocs build\n\n\n\n\n\n\u90e8\u7f72\n\n\n\u4ed3\u5e93\u4e3b\u8981\u6709\u4e24\u6761\u5206\u652f\uff1a\n\n\n\n\nmaster\uff1a\u7528\u4e8e\u7f16\u5199 markdown\u3001\u914d\u7f6e\u6587\u4ef6\u7b49\n\n\ngh-pages\uff1a\u7528\u4e8e\u5c55\u793a\u7f51\u7ad9\u5185\u5bb9\n\n\n\n\n\u7f16\u5199\u65b0\u7684\u6587\u6863\u5728 master \u5206\u652f\uff0cgh-pages \u5206\u652f\u4e0d\u80fd\u7f16\u8f91\u5426\u5219\u6709\u53ef\u80fd\u4f1a\u51fa\u73b0\u51b2\u7a81\u3002\ngh-pages \u662f\u547d\u4ee4 \nmkdocs gh-deploy\n \u4f7f\u7528\u7684\u3002\n\n\n\u914d\u7f6e\u4ed3\u5e93\u7684 settings \u4e2d\u8bbe\u7f6e\u5c55\u793a\u7684 GitHub Pages \u4e3a gh-pages branc\u3002\n\n\ncustom domain \u4e3a\uff1a\nmemo.g10guang.com\n\uff0c\u5728 master \u5206\u652f\u7684 mkdocs.yml \u914d\u7f6e\u6587\u4ef6\u4e2d\u7684 docs_dir \u76ee\u5f55\u4e0b\uff08\u9ed8\u8ba4\u4e3a docs\uff09,\u521b\u5efa\u4e00\u4e2a CNAME \u6587\u4ef6\uff0c\u5185\u5bb9\u5982\u4e0b\uff1a\n\n\nmemo.g10guang.com\n\n\n\n\n\n\u90e8\u7f72\u547d\u4ee4\uff1a\n\n\nmkdocs gh-deploy",
             "title": "mkdocs \u5b89\u88c5"
         },
         {
@@ -42,8 +42,8 @@
         },
         {
             "location": "/mkdocs/\u5b89\u88c5/#_5",
-            "text": "# virtual env \n\ngit checkout gh-pages\n\ndeactivate\n\nmkdocs build\n\ngit add *\n\ngit commit -m  \"update gh-pages\" \n\ngit push origin gh-pages",
-            "title": "\u90e8\u7f72\u811a\u672c"
+            "text": "\u4ed3\u5e93\u4e3b\u8981\u6709\u4e24\u6761\u5206\u652f\uff1a   master\uff1a\u7528\u4e8e\u7f16\u5199 markdown\u3001\u914d\u7f6e\u6587\u4ef6\u7b49  gh-pages\uff1a\u7528\u4e8e\u5c55\u793a\u7f51\u7ad9\u5185\u5bb9   \u7f16\u5199\u65b0\u7684\u6587\u6863\u5728 master \u5206\u652f\uff0cgh-pages \u5206\u652f\u4e0d\u80fd\u7f16\u8f91\u5426\u5219\u6709\u53ef\u80fd\u4f1a\u51fa\u73b0\u51b2\u7a81\u3002\ngh-pages \u662f\u547d\u4ee4  mkdocs gh-deploy  \u4f7f\u7528\u7684\u3002  \u914d\u7f6e\u4ed3\u5e93\u7684 settings \u4e2d\u8bbe\u7f6e\u5c55\u793a\u7684 GitHub Pages \u4e3a gh-pages branc\u3002  custom domain \u4e3a\uff1a memo.g10guang.com \uff0c\u5728 master \u5206\u652f\u7684 mkdocs.yml \u914d\u7f6e\u6587\u4ef6\u4e2d\u7684 docs_dir \u76ee\u5f55\u4e0b\uff08\u9ed8\u8ba4\u4e3a docs\uff09,\u521b\u5efa\u4e00\u4e2a CNAME \u6587\u4ef6\uff0c\u5185\u5bb9\u5982\u4e0b\uff1a  memo.g10guang.com  \u90e8\u7f72\u547d\u4ee4\uff1a  mkdocs gh-deploy",
+            "title": "\u90e8\u7f72"
         },
         {
             "location": "/python/Python\u865a\u62df\u73af\u5883\u521b\u5efa/",

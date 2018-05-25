@@ -322,8 +322,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" title="部署脚本" class="md-nav__link">
-    部署脚本
+  <a href="#_5" title="部署" class="md-nav__link">
+    部署
   </a>
   
 </li>
@@ -429,8 +429,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" title="部署脚本" class="md-nav__link">
-    部署脚本
+  <a href="#_5" title="部署" class="md-nav__link">
+    部署
   </a>
   
 </li>
@@ -485,20 +485,22 @@ pip install mkdocs-material
 </pre></div>
 
 
-<h2 id="_5">部署脚本</h2>
-<div class="codehilite"><pre><span></span><span class="c1"># virtual env</span>
+<h2 id="_5">部署</h2>
+<p>仓库主要有两条分支：</p>
+<ul>
+<li>master：用于编写 markdown、配置文件等</li>
+<li>gh-pages：用于展示网站内容</li>
+</ul>
+<p>编写新的文档在 master 分支，gh-pages 分支不能编辑否则有可能会出现冲突。
+gh-pages 是命令 <code>mkdocs gh-deploy</code> 使用的。</p>
+<p>配置仓库的 settings 中设置展示的 GitHub Pages 为 gh-pages branc。</p>
+<p>custom domain 为：<a href="http://memo.g10guang.com">memo.g10guang.com</a>，在 master 分支的 mkdocs.yml 配置文件中的 docs_dir 目录下（默认为 docs）,创建一个 CNAME 文件，内容如下：</p>
+<div class="codehilite"><pre><span></span>memo.g10guang.com
+</pre></div>
 
-git checkout gh-pages
 
-deactivate
-
-mkdocs build
-
-git add *
-
-git commit -m <span class="s2">&quot;update gh-pages&quot;</span>
-
-git push origin gh-pages
+<p>部署命令：</p>
+<div class="codehilite"><pre><span></span>mkdocs gh-deploy
 </pre></div>
                 
                   
