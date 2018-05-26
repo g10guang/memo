@@ -1,1 +1,0 @@
-![rebase原理](../img/rebase.png)
