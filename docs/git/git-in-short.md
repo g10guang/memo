@@ -213,6 +213,12 @@ git branch -d branch_name
 git branch -D branch_name
 ```
 
+删除远程分支：
+
+```zsh
+git push origin --delete gh-pages
+```
+
 ### 本地分支与远程分支的映射
 
 ```
