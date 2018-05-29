@@ -332,12 +332,45 @@
     镜像
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="打标签" class="md-nav__link">
+    打标签
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" title="容器" class="md-nav__link">
+  <a href="#_7" title="容器" class="md-nav__link">
     容器
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="进入容器" class="md-nav__link">
+    进入容器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" title="导入导出容器" class="md-nav__link">
+    导入导出容器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -410,10 +443,70 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
-      Mkdocs
+      Linux
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
+        Linux
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../linux/.vimrc配置/" title=".vimrc配置" class="md-nav__link">
+      .vimrc配置
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../linux/dotfile执行/" title="Dotfile执行" class="md-nav__link">
+      Dotfile执行
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../linux/修改键盘映射/" title="修改键盘映射" class="md-nav__link">
+      修改键盘映射
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Mkdocs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
         Mkdocs
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -443,13 +536,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
-    <label class="md-nav__link" for="nav-5">
+    <label class="md-nav__link" for="nav-6">
       Python
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-5">
+      <label class="md-nav__title" for="nav-6">
         Python
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -531,12 +624,45 @@
     镜像
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="打标签" class="md-nav__link">
+    打标签
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" title="容器" class="md-nav__link">
+  <a href="#_7" title="容器" class="md-nav__link">
     容器
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="进入容器" class="md-nav__link">
+    进入容器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" title="导入导出容器" class="md-nav__link">
+    导入导出容器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -588,9 +714,49 @@
 </pre></div>
 
 
-<h2 id="_6">容器</h2>
+<p>删除悬虚镜像：</p>
+<div class="codehilite"><pre><span></span>docker image prune
+</pre></div>
+
+
+<p>指定输出格式：</p>
+<div class="codehilite"><pre><span></span><span class="x">docker image ls --format &quot;table </span><span class="cp">{{</span><span class="nv">.ID</span><span class="cp">}}</span><span class="x">\t</span><span class="cp">{{</span><span class="nv">.Repository</span><span class="cp">}}</span><span class="x">\t</span><span class="cp">{{</span><span class="nv">.Tag</span><span class="cp">}}</span><span class="x">&quot;</span>
+</pre></div>
+
+
+<h3 id="_6">打标签</h3>
+<div class="codehilite"><pre><span></span>docker tag IMAGE[:TAG] [REGISTRY_HOST[:REGISTRY_PORT]/]REPOSITORY[:TAG]
+</pre></div>
+
+
+<h2 id="_7">容器</h2>
 <p>删除所有容器：</p>
 <div class="codehilite"><pre><span></span>sudo docker rm <span class="k">$(</span>sudo docker ps -aq<span class="k">)</span>
+</pre></div>
+
+
+<p>查看容器的日志输出：</p>
+<div class="codehilite"><pre><span></span>docker logs [container_id]
+</pre></div>
+
+
+<p>使用 <code>-d</code> 参数让容器在后台运行</p>
+<h3 id="_8">进入容器</h3>
+<p>在 attach 中推出会导致容器推出，exec 不会。</p>
+<div class="codehilite"><pre><span></span>docker attach
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span>docker exec
+</pre></div>
+
+
+<h3 id="_9">导入导出容器</h3>
+<div class="codehilite"><pre><span></span>docker export
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span>docker import
 </pre></div>
 
 

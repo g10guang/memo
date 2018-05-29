@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-05-27</lastmod>
+     <lastmod>2018-05-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,7 +13,7 @@
         
     <url>
      <loc>/docker/docker-in-short/</loc>
-     <lastmod>2018-05-27</lastmod>
+     <lastmod>2018-05-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -23,7 +23,29 @@
         
     <url>
      <loc>/git/git-in-short/</loc>
-     <lastmod>2018-05-27</lastmod>
+     <lastmod>2018-05-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/linux/.vimrc配置/</loc>
+     <lastmod>2018-05-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/linux/dotfile执行/</loc>
+     <lastmod>2018-05-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/linux/修改键盘映射/</loc>
+     <lastmod>2018-05-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -33,7 +55,7 @@
         
     <url>
      <loc>/mkdocs/安装/</loc>
-     <lastmod>2018-05-27</lastmod>
+     <lastmod>2018-05-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -43,7 +65,7 @@
         
     <url>
      <loc>/python/Python虚拟环境创建/</loc>
-     <lastmod>2018-05-27</lastmod>
+     <lastmod>2018-05-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
