@@ -99,3 +99,87 @@ docker import
 sudo docker system info
 ```
 
+## 数据卷
+
+- 数据卷可在多个容器间共享
+- 数据卷的修改马上生效
+- 数据卷的更改不影响镜像
+- 数据卷默认会一直存在，即使容器已被删除
+
+```sh
+docker volume
+```
+
+删除容器同时删除数据卷：
+
+```sh
+docker rm -v [container_id]
+```
+
+清除无主的数据卷：
+
+```sh
+docker volume prune
+```
+
+使用 `--mount` 或 `-v` 挂载数据卷，将主机的 `/src/webapp` 映射为容器的 `/opt/webapp`：
+
+```sh
+docker run -d \
+    --name web \
+    # -v /src/webapp:/opt/webapp \
+    --mount type=bind,source=/src/webapp,target=/opt/webapp \
+    training/webapp \
+    python app.py
+```
+
+挂载只读数据卷：`--mount type=bind,source=/src/webapp,target=/opt/webapp,readonly`，如果在容器中向 `/opt/webapp` 写数据，则会出错。
+
+挂载的数据卷不一定要是文件夹，也可以是文件，`--mount type=bind,source=$HOME/.bash_history,target=/root/.bash_history`。
+
+## 网络
+
+使用 `-P` 或者 `ip::containerPort` 进行随机端口映射。
+
+`-p` 进行指定端口的映射：
+
+- `-p 5000:5000`
+- `-p 127.0.0.1:5000:5000`
+- `-p 127.0.0.1::5000`
+- `-p 127.0.0.1:5000:5000/tcp`
+
+`-p` 标记可以多次使用，进行多个端口的映射。
+
+查看端口映射信息：
+
+```sh
+docker port CONTAINER [PRIVATE_PORT[/PROTO]]
+```
+
+使用 `--dns 8.8.8.8` 是指定容器使用的 DNS。
+
+可以在 `/etc/docker/deamon.json` 中添加关于 DNS 的内容，指定所有容器所使用的 DNS 配置：
+
+```json
+{
+  "dns" : [
+    "114.114.114.114",
+    "8.8.8.8"
+  ]
+}
+```
+
+
+## 查看相关信息
+
+```sh
+docker inspect [container|image|volume|...]
+```
+
+## compose
+
+Compose 管理一组容器，方便地进行容器的生命周期管理。
+
+因为 Compose 项目是由 Python 编写的，通过调 Docker API 完成容器的管理，所以 Compose 可以通过 pip 安装。
+
+    
