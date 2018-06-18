@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,8 +12,18 @@
     
         
     <url>
+     <loc>/architect/《大型网站核心架构》笔记/</loc>
+     <lastmod>2018-06-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>/docker/docker-in-short/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -23,7 +33,7 @@
         
     <url>
      <loc>/git/git-in-short/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -33,7 +43,7 @@
         
     <url>
      <loc>/http/CORS/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -42,20 +52,26 @@
     
         
     <url>
-     <loc>/linux/.vimrc配置/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <loc>/linux/dotfile执行/</loc>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/linux/dotfile执行/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <loc>/linux/git设置代理/</loc>
+     <lastmod>2018-06-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/linux/vim/</loc>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/linux/修改键盘映射/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -65,7 +81,7 @@
         
     <url>
      <loc>/mkdocs/安装/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -75,7 +91,7 @@
         
     <url>
      <loc>/python/Python虚拟环境创建/</loc>
-     <lastmod>2018-06-05</lastmod>
+     <lastmod>2018-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
